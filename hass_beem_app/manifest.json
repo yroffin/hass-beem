@@ -1,0 +1,22 @@
+{
+    "domain": "hass_beem_app",
+    "name": "Beem integration component",
+    "after_dependencies": [
+        "http"
+    ],
+    "codeowners": [
+        "@yroffin"
+    ],
+    "dependencies": [
+        "mqtt"
+    ],
+    "config_flow": true,
+    "documentation": "https://www.home-assistant.io/components/todo",
+    "iot_class": "local_polling",
+    "issue_tracker": "https://github.com/balloob/hue/issues",
+    "loggers": [
+        "aiohue"
+    ],
+    "requirements": [],
+    "quality_scale": "silver"
+}
